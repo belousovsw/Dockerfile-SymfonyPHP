@@ -1,4 +1,4 @@
-FROM php:7.4-fpm
+FROM php:7.4
 
 RUN apt-get update 
 RUN apt-get install -y sudo apt-utils libonig-dev libpq-dev libzip-dev wget mc libssh2-1-dev libssh2-1 libxml2-dev libcurl4-openssl-dev libpng-dev git wget supervisor net-tools
